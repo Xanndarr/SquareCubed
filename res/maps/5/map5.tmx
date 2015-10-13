@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="22" height="22" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile" tilewidth="32" tileheight="32">
+  <image source="../1/tile.png" trans="2991b3" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="Spike" tilewidth="32" tileheight="32">
+  <image source="../../global/mobs/Spike.png" trans="2991b3" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="spike" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="UpsideDownSpike" tilewidth="32" tileheight="32">
+  <image source="../../global/mobs/UpsideDownSpike.png" trans="2991b3" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="spike" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4" name="Key" tilewidth="32" tileheight="32">
+  <image source="../../global/mobs/Key.png" trans="2991b3" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="key" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="walls" width="22" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgpBGmNqCnuUMhHKjtttHwpa3bRsOXtm4bDV/aum00fKnvNnQMAG9fmWqQBwAA
+  </data>
+ </layer>
+ <layer name="entities" width="22" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkYBIcBCY/MB6Mg16ZAHAAA=
+  </data>
+ </layer>
+ <objectgroup name="mobs" width="22" height="22">
+  <object name="0" x="640" y="64" width="32" height="32">
+   <properties>
+    <property name="spawn" value="true"/>
+   </properties>
+  </object>
+  <object name="1" x="32" y="128" width="640" height="32">
+   <properties>
+    <property name="speed" value="0.16"/>
+   </properties>
+  </object>
+  <object name="2" x="32" y="256" width="640" height="32">
+   <properties>
+    <property name="speed" value="0.16"/>
+   </properties>
+  </object>
+  <object name="3" x="32" y="384" width="640" height="32">
+   <properties>
+    <property name="speed" value="0.16"/>
+   </properties>
+  </object>
+  <object name="4" x="32" y="512" width="640" height="32">
+   <properties>
+    <property name="speed" value="0.16"/>
+   </properties>
+  </object>
+  <object name="5" x="32" y="576" width="640" height="32">
+   <properties>
+    <property name="speed" value="0.16"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
